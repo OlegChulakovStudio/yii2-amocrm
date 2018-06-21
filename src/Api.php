@@ -22,7 +22,7 @@ use Chulakov\AmoCRM\EntityInterface;
 /**
  * Обертка для работы с пакетом OlegChulakovStudio/amocrm
  */
-class AmoCRM implements Configurable
+class Api implements Configurable
 {
 
     /**
