@@ -5,6 +5,7 @@
   "type": "library",
   "require": {
     "php": ">=5.6.0",
+    "yiisoft/yii2": "~2.0.14",
     "oleg-chulakov-studio/amocrm": "~1.0"
   },
   "authors": [
