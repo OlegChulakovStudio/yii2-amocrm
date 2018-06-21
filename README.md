@@ -16,6 +16,24 @@
 composer require oleg-chulakov-studio/yii2-amocrm
 ```
 ## Конфигурация компонента Yii2
-Comming soon...
+```php
+return [
+    ...
+    'components' => [
+        ...    
+        'amo' => [
+            'class'=> chulakov\yii\amocrm\Api::class,
+            'subdomain' => '<your_subdomain_in_amo>',
+            'login' => '<administrative_account_login>',
+            'hash' => '<secret_hash>',
+        ],
+        ...
+    ],
+    ...
+];
+```
 ### Примеры использования
-Comming soon...
+```php
+// Получить информацию о текущем аккаунте
+$info = Yii::$app->amo->account->info();
+```
