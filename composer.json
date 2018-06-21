@@ -1,0 +1,25 @@
+{
+  "name": "oleg-chulakov-studio/yii2-amocrm",
+  "description": "Yii2 wrapper for working with AmoCRM RESTfull API v2",
+  "license": "BSD-3-Clause",
+  "type": "library",
+  "require": {
+    "php": ">=5.6.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "authors": [
+    {
+      "name": "Chulakov Studio",
+      "email": "hello@chulakov.ru"
+    },
+    {
+      "name": "Samsonov Vladimir",
+      "email": "vs@chulakov.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "chulakov\\yii\\amocrm\\": "src/"
+    }
+  }
+}
